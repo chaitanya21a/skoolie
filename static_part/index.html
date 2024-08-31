@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            Skoolie <!-- Company name -->
+        </div>
+        <div class="hamburger" onclick="toggleNav()">
+            &#9776; <!-- Hamburger icon -->
+        </div>
+        <ul class="nav-links">
+            <li>
+                    <div id="cl">
+                        Mon, Aug 28
+                    </div>
+            </li>
+            <li>
+                <div id="cr" style="text-align: center;">
+                    <img src="/assets/icons/bell-solid (1).svg" alt="bell" width="30px">
+                </div>
+            </li>
+            <li>
+                <div id="cr">
+
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="left-container">
+            <img src="/assets/Page Design/Login Page/confused man.png" alt="Responsive Image" class="responsive-image">
+        </div>
+        <div class="right-container">
+            <div class="id-card-landscape">
+                <div>
+                <div class="college-name">College ID</div>
+                <div class="student-photo-landscape">
+                    <img src="/assets/Page Design/Login Page/sample_profile.png" width="150px">
+                </div>
+                </div>
+                <div class="input-group-landscape">
+                    <input type="text" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <input id="button" type="button" value="Login">
+                </div>
+                <div class="barcode-landscape">
+                    <img src="/assets/Page Design/Login Page/barcode.png" width="20px" alt="barcode" class="barcode">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleNav() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

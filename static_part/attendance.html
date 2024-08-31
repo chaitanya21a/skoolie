@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="attendance">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="attstyle.css">
+</head>
+<body>
+    <h1 class="attendancehead">Here's Your Attendance</h1>
+    <div class="cotn">
+        <div class="item" id="it1">
+            <h2 class="subname">Circuit Theory</h2>
+            <div class="incotn">
+                <p><strong style="font-size:25px; font-weight: bold;">{{ CT_percentage }}%</strong><br>Attended {{ CT_present }} out of {{ CT_total }}</p>
+                <div class="data">
+                    <p class="ii">Sep02 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Present</p>
+                    <hr>
+                    <p class="ii">Sep01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Absent</p>
+                    <hr>
+                    <p class="ii">Aug30 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Present</p>
+                    <hr>
+                    <p class="ii">Aug29 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Absent</p>
+                    <hr>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="item" id="it2">
+            <h2 class="subname"> Data Structures</h2>
+            <div class="incotn">
+                <p><strong style="font-size:25px; font-weight: bold;">{{ DST_percentage }}%</strong><br>Attended {{ DST_present }} out of {{ DST_total }}</p>
+                <div class="data">
+                    <p class="ii">Sep02 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Absent</p>
+                    <hr>
+                    <p class="ii">Sep01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Present</p>
+                    <hr>
+                    <p class="ii">Aug30 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Present</p>
+                    <hr>
+                    <p class="ii">Aug29 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Absent</p>
+                    <hr>        
+
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

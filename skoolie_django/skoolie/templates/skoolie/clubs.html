@@ -1,0 +1,16 @@
+{% extends "skoolie/navbar.html" %}
+{% block title %}
+Clubs | Skoolie
+{% endblock %}
+{% block JavaScript %}
+{% load static %}
+<script src="{% static 'skoolie/clubs.js' %}"></script>
+
+{% endblock %}
+{% block CONTENT %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'skoolie/clubs.css' %}">
+<section class="clubs" id="clubs">
+    <!-- Clubs and Societies will be populated dynamically here -->
+    </section>
+{% endblock %}
