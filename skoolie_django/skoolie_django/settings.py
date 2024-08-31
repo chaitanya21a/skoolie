@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-=b2w_)6@%k#52xyb4$o8bnp3r)!824#we2u=baz5j4%5cbe9p*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['skoolie-backend.onrender.com']
 
 
 # Application definition
